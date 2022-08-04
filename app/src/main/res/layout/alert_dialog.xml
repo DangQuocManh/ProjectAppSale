@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:background="@drawable/custom_dialog">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận đặt hàng"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="98dp"
+            android:layout_height="52dp"
+            android:id="@+id/btn_yes"
+            android:text="Đồng ý"
+            android:layout_marginRight="18dp"
+            android:background="#ffd54f"
+            android:layout_marginTop="14dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="98dp"
+            android:layout_height="52dp"
+            android:id="@+id/btn_exit"
+            android:text="Hủy"
+            android:background="#ffd54f"
+            android:layout_marginTop="14dp"/>
+    </LinearLayout>
+    </LinearLayout>

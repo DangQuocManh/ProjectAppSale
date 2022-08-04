@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="98dp"
+    android:id="@+id/cv_phone"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="6dp"
+    android:elevation="8dp"
+    android:layout_margin="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/iv_imagephone"
+            android:layout_weight="3"
+            tools:src="@drawable/ao_dai"
+            android:scaleType="fitCenter"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_namephone"
+                android:text="Ten dien thoai"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_pricephone"
+                android:text="Gia san pham"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_description"
+                android:text="Mo ta"
+                android:textColor="#212121"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
